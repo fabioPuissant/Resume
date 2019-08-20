@@ -1,7 +1,7 @@
 <template>
   <v-app class="grey lighten-4 ">
     <Navbar />
-    <v-content class="bg-image-blured">
+    <v-content class="bg-image-blured mt-4">
         <router-view id="view"/>
     </v-content>
   </v-app>
@@ -25,7 +25,7 @@ export default {
 .bg-image-blured{
   background: no-repeat, center, 100%;
   background-size: cover;
-  background-image: url('../public/blury.jpg');
+  background-image: url('../public/bg2.jpg');
 }
 
 </style>

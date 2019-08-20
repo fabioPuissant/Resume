@@ -2,20 +2,25 @@
   <v-layout justify-space-around column>
     <v-flex></v-flex>
     <v-flex>
-      <v-card color="deep-purple darken-1" class="pa-3">
+      <v-card color="cyan darken-4" class="pa-3">
         <v-row no-gutters>
-          <v-col md="2" lg="2" sm="2">
+          <v-col cols="2">
             <v-list
               class="mx-auto hidden-sm-and-down"
-              dark
+              tile
               rounded
               text
-              color="deep-purple darken-1"
+              dark
+              color="cyan darken-4 teal-lighten-4--text"
             >
-              <v-list-item-group color="deep-purple lighten-2">
-                <v-list-item v-for="(item, i) in listItems" :key="i" @click="changeShow(item)">
+              <v-list-item-group>
+                <v-list-item v-for="(item, i) in listItems" :key="i" @click="changeShow(item.text)">
+                  <v-list-item-icon class="mr-3">
+                    <v-icon left size="20">{{item.icon}}</v-icon>
+                  </v-list-item-icon>
+
                   <v-list-item-content>
-                    <v-list-item-title>{{item}}</v-list-item-title>
+                    <v-list-item-title class="text-capitalize caption">{{item.text}}</v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>
               </v-list-item-group>
@@ -44,7 +49,12 @@ export default {
   },
   data() {
     return {
-      listItems: ["about", "internship", "skills", "goals", "international"],
+      listItems: [
+        { text: "about", icon: "fingerprint" },
+        { text: "skills", icon: "code" },
+        { text: "goals", icon: "accessibility_new" },
+        { text: "experience", icon: "work" }
+      ],
       show: "about",
       drawer: false
     };
