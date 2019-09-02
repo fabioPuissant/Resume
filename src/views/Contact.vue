@@ -111,7 +111,7 @@ export default {
     routeTo(url) {
       window.location = url;
     }
-  }
+  },
 };
 </script>
 

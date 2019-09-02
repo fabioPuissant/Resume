@@ -8,11 +8,11 @@
         <span class="font-weight-black">Talent</span>
       </v-toolbar-title>
     </v-app-bar>
-    <v-navigation-drawer color="cyan darken-3" dark v-model="drawer" app>
-        <v-row justify-sm="end" class="pr-5 pt-3">
-          <v-spacer></v-spacer>
+    <v-navigation-drawer class="bg-Skyline" color="deep-purple darken-2" dark v-model="drawer" app>
+      <v-row justify-sm="end" class="pr-5 pt-3">
+        <v-spacer></v-spacer>
         <v-icon right color="white" @click="showNav">clear</v-icon>
-           </v-row>
+      </v-row>
       <v-layout column align-center>
         <v-flex mt-5>
           <v-avatar size="100">
@@ -32,7 +32,6 @@
             justify-center
             router
             :to="navItem.to"
-            
           >
             <v-list-item-content>{{navItem.text}}</v-list-item-content>
             <v-list-item-icon>
@@ -70,4 +69,8 @@ export default {
 </script>
 
 <style scoped>
+.bg-Skyline{
+  background: url('/blury.jpg'), no-repeat, ;
+  
+}
 </style>

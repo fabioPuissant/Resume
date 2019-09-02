@@ -1,6 +1,6 @@
 <template>
   <v-card light class="mx-auto" height="100%" width="100%">
-    <v-card-title v-if="smallScrn">About</v-card-title>
+    <v-card-title v-if="smallScrn" class="grey--text">About</v-card-title>
 
     <v-card-title class="fill-height align-end">
       <v-layout column align-center>

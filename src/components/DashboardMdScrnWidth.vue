@@ -29,6 +29,7 @@
           <v-col align-self="center">
             <about v-if="show === 'about'" />
             <Skills v-if="show === 'skills'" />
+            <experience v-if="show === 'experience'" />
           </v-col>
         </v-row>
       </v-card>
@@ -40,20 +41,21 @@
 <script>
 import about from "../views/About.vue";
 import Skills from "../views/Skills.vue";
+import Experience from "../views/Experience.vue";
 
 export default {
   name: "DashboardMdScrnWidth",
   components: {
     about,
-    Skills
+    Skills,
+    Experience,
   },
   data() {
     return {
       listItems: [
         { text: "about", icon: "fingerprint" },
         { text: "skills", icon: "code" },
-        { text: "goals", icon: "accessibility_new" },
-        { text: "experience", icon: "work" }
+        { text: "experience", icon: "work" },
       ],
       show: "about",
       drawer: false
