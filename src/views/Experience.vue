@@ -11,8 +11,8 @@
         <template v-slot:opposite>
           <span>{{year.year}}</span>
         </template>
-        <v-card class="elevation-1 mx-1" color="cyan lighten-4">
-          <v-card-title>{{year.company}}</v-card-title>
+        <v-card class="elevation-3 mx-1" color="cyan lighten-4">
+          <v-card-title :class="$vuetify.breakpoint.mdAndUp ? 'header' : 'caption'">{{year.company}}</v-card-title>
           <v-card-text
             class="caption"
           >{{year.function}}</v-card-text>

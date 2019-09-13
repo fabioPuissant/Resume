@@ -5,8 +5,8 @@
     <v-card-title class="fill-height align-end">
       <v-layout column align-center>
         <v-flex>
-          <v-avatar size="100" class="mb-3">
-            <v-img src="/avatar-6.JPG"></v-img>
+          <v-avatar class="profile mb-sm-3" size="100" tile>
+            <v-img src="/fabio.png"></v-img>
           </v-avatar>
         </v-flex>
         <v-flex>
@@ -28,7 +28,6 @@
             <span
               class="font-weight-bold caption teal--text text-capitalize lighten-3"
             > &nbsp;Fullstack &nbsp;</span>
-            <span class="font-weight-light caption">Freelancer</span>
           </v-row>
           <v-row>
             <v-divider></v-divider>
@@ -52,21 +51,14 @@
       </v-layout>
     </v-card-title>
     <v-card-text>
-      <v-row>
-        <v-col
-          cols="10">
-          I have worked in different sectors for three years, before I find my passion and started my studies in informatics.
-          My experience as a call agent agent boosted my social skills. After this job I worked as an electrician in a big company.
-          There I was promoted as a team leader after 1 year. Still I wasn't satisfied. I always wanted a job in technology. So one year later, at the age of 23, 
-          I decided to start my studies at Hogeschool PXL Hasselt to get my bachelor degree in applied informatics.
-          <br> I am very passionate about my studies. In the future I aim to travel the world so I can learn new concepts and technologies to expand my horizon.
-          <br> The main goal for me is to learn as much as I can possible can and be the best version of myself.
+      <v-row class="text-center caption">
+        <v-col>
+          <div class="title text-left ma-0 teal--text text--darken-1">Background:</div>
+          <br>
+          I worked in different sectors for three years, before I found my passion and started my studies in computer science. My experience as a call agent agent boosted my social skills. After this job, I worked as an electrician in a big company. There I was promoted as a team leader after 1 year. Still I wasn't satisfied. I always wanted a job in technology. So one year later, at the age of 23, I decided to start my studies at Hogeschool PXL Hasselt to get my bachelor's degree in Computer Science. I am very passionate about my studies. I aim to travel the world so I can learn new concepts and technologies.
+My main goal is to learn as much as I can so I can travel the world, doing what I love.
         </v-col>
-        <v-col cols="2">
-          <v-responsive>
-            <v-img max-height="100" max-width="300" src="/avatar-6.JPG"></v-img>
-          </v-responsive>
-        </v-col>
+        
       </v-row>
     </v-card-text>
   </v-card>

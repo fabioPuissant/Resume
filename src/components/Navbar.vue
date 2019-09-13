@@ -8,7 +8,7 @@
         <span class="font-weight-black">Talent</span>
       </v-toolbar-title>
     </v-app-bar>
-    <v-navigation-drawer class="bg-Skyline" color="deep-purple darken-2" dark v-model="drawer" app>
+    <v-navigation-drawer class="bg-Skyline" color="teal darken-2" dark v-model="drawer" app>
       <v-row justify-sm="end" class="pr-5 pt-3">
         <v-spacer></v-spacer>
         <v-icon right color="white" @click="showNav">clear</v-icon>
@@ -16,7 +16,7 @@
       <v-layout column align-center>
         <v-flex mt-5>
           <v-avatar size="100">
-            <img src="/avatar-6.JPG" />
+            <img src="/fabio.png" />
           </v-avatar>
         </v-flex>
         <v-flex mt-5>

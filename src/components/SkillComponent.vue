@@ -2,7 +2,7 @@
   <v-layout align-content-start>
     <v-flex class="pa-2" xs4>
         <div class="border">
-            <span>{{skill}}</span>
+            <span :class="$vuetify.breakpoint.mdAndUp ? 'subheader' : 'caption'">{{skill}}</span>
         </div>
     </v-flex>
     <v-flex class="ml-3 mt-3 pl-4">

@@ -36,7 +36,8 @@ export default {
             { name: "C#", level: 83 },
             { name: "ASP.NET", level: 85 },
             { name: "PHP", level: 70 },
-            { name: "Vue JS", level: 78 }
+            { name: "Vue JS", level: 78 },
+            { name: "Flutter", level: 60 },
           ]
         },
         {
