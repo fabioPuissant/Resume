@@ -6,7 +6,7 @@
         </div>
     </v-flex>
     <v-flex class="ml-3 mt-3 pl-4">
-      <v-progress-linear rounded v-model="level" :color="barColor" height="25" reactive>
+      <v-progress-linear rounded  :value="level" :color="barColor" height="25" reactive>
         <template v-slot="{ value }">
           <strong>{{ Math.ceil(value) }}%</strong>
         </template>

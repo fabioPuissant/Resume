@@ -1,5 +1,5 @@
 <template>
-  <v-card max-width="375" class="mx-auto mt-8">
+  <v-card :max-width="isSmallerScreen ? '300' : '375'" class="mx-auto mt-8">
     <v-img src="/thai.jpg" height="300px" dark>
       <v-row class="fill-height">
         <v-card-title>
@@ -14,8 +14,10 @@
 
         <v-spacer></v-spacer>
 
-        <v-card-title class="white--text pl-12 mt-12 pt-12">
-          <div class="display-1 white--text text-capitalize pl-12 pt-12">
+        <v-card-title class="white--text pl-12 mt-12 pt-12 text-center">
+          <div
+            :class="['white--text text-capitalize pl-10 pt-12', isSmallerScreen ? 'headline' : 'display-1']"
+          >
             <span>fabio</span>
             <span>&nbsp;</span>
             <span>puissant</span>
@@ -30,23 +32,24 @@
           v-for="contact in mailAddresses"
           :key="contact.address"
           :mailAddress="contact.address"
+          :type="contact.type"
           :contactAddressOption="contact.contact"
           :showMailIcon="contact.mailIcon"
+          :smallScreen="isSmallerScreen"
         />
+        <!--
         <v-list-item>
           <v-list-item-icon>
             <v-icon color="indigo">phone</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>
-            <v-list-item-title>(+32) 0491-1257-18</v-list-item-title>
+            <v-list-item-title>0491-1257-18</v-list-item-title>
             <v-list-item-subtitle>Mobile</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
-        <v-divider inset></v-divider>
-
-        <v-divider inset></v-divider>
-
+        -->
+        <v-divider class="mx-auto" inset></v-divider>
         <v-list-item>
           <v-list-item-icon>
             <v-icon color="indigo">location_on</v-icon>
@@ -59,27 +62,32 @@
         </v-list-item>
         <v-list-item>
           <v-row justify-sm="center">
-            <v-list-item-icon>
-              <v-spacer></v-spacer>
-              <v-btn fab small class="mx-3">
-                <v-avatar @click="routeTo('https://github.com/fabioPuissant')" class="mx-3">
-                  <v-img src="/gh.png" />
-                </v-avatar>
-              </v-btn>
-              <v-btn fab small class="mx-3">
-                <v-avatar @click="routeTo('https://www.facebook.com/fabio.puissant')" class="mx-3">
-                  <v-img src="/fv.png" />
-                </v-avatar>
-              </v-btn>
-              <v-btn fab small class="mx-3">
-                <v-avatar
-                  @click="routeTo('https://www.linkedin.com/in/fabio-puissant-158b0716b/')"
-                  class="mx-3"
-                >
-                  <v-img src="/li.png" />
-                </v-avatar>
-              </v-btn>
-            </v-list-item-icon>
+            <v-col align="center">
+              <v-list-item-icon>
+                <v-spacer></v-spacer>
+                <v-btn fab small class="mx-3">
+                  <v-avatar @click="routeTo('https://github.com/fabioPuissant')" class="mx-3">
+                    <v-img src="/gh.png" />
+                  </v-avatar>
+                </v-btn>
+                <v-btn fab small class="mx-3">
+                  <v-avatar
+                    @click="routeTo('https://www.facebook.com/fabio.puissant')"
+                    class="mx-3"
+                  >
+                    <v-img src="/fv.png" />
+                  </v-avatar>
+                </v-btn>
+                <v-btn fab small class="mx-3">
+                  <v-avatar
+                    @click="routeTo('https://www.linkedin.com/in/fabio-puissant-158b0716b/')"
+                    class="mx-3"
+                  >
+                    <v-img src="/li.png" />
+                  </v-avatar>
+                </v-btn>
+              </v-list-item-icon>
+            </v-col>
           </v-row>
         </v-list-item>
       </v-list-item-group>
@@ -96,11 +104,13 @@ export default {
       mailAddresses: [
         {
           address: "fabio.puissant@student.pxl.be",
+          type: "Student mail",
           contact: true,
           mailIcon: true
         },
         {
           address: "fabio.puissant@hotmail.com",
+          type: "Personal mail",
           contact: true,
           mailIcon: false
         }
@@ -112,6 +122,11 @@ export default {
       window.location = url;
     }
   },
+  computed: {
+    isSmallerScreen() {
+      return window.innerWidth <= 400;
+    }
+  }
 };
 </script>
 

@@ -3,6 +3,7 @@
     <v-row v-if="start">
       <v-col>
         <blog-group-option
+        class="mx-5"
           title="seminars"
           bgImg="/bg2.jpg"
           textColor="white--text"
