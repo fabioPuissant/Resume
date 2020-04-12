@@ -1,8 +1,8 @@
 <template>
-  <v-card :max-width="isSmallerScreen ? '300' : '375'" class="mx-auto mt-8">
+  <v-card :max-width="isSmallerScreen ? '300' : '375'" class="bg-color mx-auto mt-8">
     <v-img src="/thai.jpg" height="300px" dark>
       <v-row class="fill-height">
-        <v-card-title>
+        <v-card-title class="">
           <v-btn dark text disabled icon></v-btn>
 
           <v-spacer></v-spacer>
@@ -26,7 +26,7 @@
       </v-row>
     </v-img>
 
-    <v-list text two-line>
+    <v-list text two-line class="bg-color">
       <v-list-item-group>
         <MailListItemComponent
           v-for="contact in mailAddresses"
@@ -37,30 +37,18 @@
           :showMailIcon="contact.mailIcon"
           :smallScreen="isSmallerScreen"
         />
-        <!--
-        <v-list-item>
-          <v-list-item-icon>
-            <v-icon color="indigo">phone</v-icon>
-          </v-list-item-icon>
-
-          <v-list-item-content>
-            <v-list-item-title>0491-1257-18</v-list-item-title>
-            <v-list-item-subtitle>Mobile</v-list-item-subtitle>
-          </v-list-item-content>
-        </v-list-item>
-        -->
         <v-divider class="mx-auto" inset></v-divider>
         <v-list-item>
           <v-list-item-icon>
             <v-icon color="indigo">location_on</v-icon>
           </v-list-item-icon>
 
-          <v-list-item-content>
-            <v-list-item-title>Hogeschool PXL</v-list-item-title>
-            <v-list-item-subtitle>Hasselt, Limburg 3500</v-list-item-subtitle>
+          <v-list-item-content class="bg-color white--text">
+            <v-list-item-title class="white--text">Hogeschool PXL</v-list-item-title>
+            <v-list-item-subtitle class="white--text">Hasselt, Limburg 3500</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item>
+        <v-list-item class="bg-color">
           <v-row justify-sm="center">
             <v-col align="center">
               <v-list-item-icon>
@@ -131,4 +119,7 @@ export default {
 </script>
 
 <style scoped>
+.bg-color {
+  background: #2d253c !important;
+}
 </style>

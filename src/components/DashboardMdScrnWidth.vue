@@ -1,12 +1,12 @@
 <template>
   <v-layout justify-space-around column>
     <v-flex>
-    
         <v-row no-gutters>
           <v-col cols="2">
             <v-list
               class="mx-auto hidden-sm-and-down transparant-bg"
               tile
+              flat
               text
               dark
               color="white--text"
