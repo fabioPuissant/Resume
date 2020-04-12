@@ -1,17 +1,15 @@
 <template>
   <v-layout justify-space-around column>
-    <v-flex></v-flex>
     <v-flex>
-      <v-card color="cyan darken-4" class="pa-3">
+    
         <v-row no-gutters>
           <v-col cols="2">
             <v-list
-              class="mx-auto hidden-sm-and-down"
+              class="mx-auto hidden-sm-and-down transparant-bg"
               tile
-              rounded
               text
               dark
-              color="cyan darken-4 teal-lighten-4--text"
+              color="white--text"
             >
               <v-list-item-group>
                 <v-list-item v-for="(item, i) in listItems" :key="i" @click="changeShow(item.text)">
@@ -32,7 +30,6 @@
             <experience v-if="show === 'experience'" />
           </v-col>
         </v-row>
-      </v-card>
     </v-flex>
     <v-flex></v-flex>
   </v-layout>
@@ -76,3 +73,14 @@ export default {
   }
 };
 </script>
+<style scoped>
+.gradient {
+    background-image: linear-gradient(
+    #ff5248,  #40212d
+    ) !important;
+    
+}
+.transparant-bg {
+  background-color: transparent !important;
+}
+</style>
