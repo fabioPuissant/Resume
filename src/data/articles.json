@@ -1,0 +1,80 @@
+[
+  {
+    "title": "IT@Breakfast: Droneport",
+    "date": "20/02/2019",
+    "category": "Seminar",
+    "urlToImage": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F88585941%2F78814159065%2F1%2Foriginal.20191218-162307?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=6dbf3ea5081383f67c806c2915c8109e",
+    "description": "This 2-hour seminar was hosted by Droneport, a revolutionary organization that specializes in drone technology. This was the first seminar out of the 8 that are required to pass for I-Talent course.\n During this seminar\n the guest speaker showed some cases where drones can be of great help. \nFurthermore, the tech behind drones was explained on a high level."
+
+  },
+ {
+  "title": "Introduction to Artificial Intelligence",
+  "date": "20/03/2019",
+  "category": "Seminar",
+  "urlToImage": "https://www.solvoyo.com/wp-content/uploads/2019/10/ai-and-dev.jpg",
+  "description": "This seminar was organised by the Hogeschool PXL & Belfius. A guest speaker came who was an A.I. consultant of Bright Knight, a sister company under the Belfius group. \nHe explained why it was important that people start experimenting with A.I. technology and why it won't fade away in the upcoming years."
+},
+{
+  "title": "AppFoundry: Introduction to Mobile Development",
+  "date": "21/04/2019",
+  "category": "Seminar",
+  "urlToImage": "https://chessict.co.uk/media/4066/android-vs-ios-banner.png?crop=0,0,0.0000000000000002526374171591,0.00075757575757604131&cropmode=percentage&width=750&height=500&rnd=131944343990000000",
+  "description": "In this seminar, we learnt what technologies are behind the different mobile platforms (IOS / Android). The guest speakers were consultants of AppFoundry, a company that specializes in mobile application development. One speaker had several years of experience in building IOS applications, the other was specialized in Android applications."
+},
+{
+  "title": "Workshop Cyber Security",
+  "date": "08/05/2019",
+  "category": "Seminar",
+  "urlToImage": "https://miro.medium.com/max/848/1*4nXjDF9ftP7y8GviF-HRkQ.jpeg",
+  "description": "This workshop was held by a consultant of Eurofins. In this workshop we teamed in groups of tree to try and hack a virtual server box that was provided by the guest speaker. We needed to 'capture-the-flag' by using a Kali-Linux VM."
+},
+{
+  "title": "Build Your Own Server Farm",
+  "date": "15/05/2019",
+  "category": "Seminar",
+  "urlToImage": "https://www.telenor.com/wp-content/uploads/2018/11/iStock-1063965916-1250x585.jpg",
+  "description": "This seminar was held by two network/system engineers of Axxes consultancy. I learned a lot about how to start building my server farm at home and what to look out for. Also, we build a Docker VM and deploy it on the server farm of one of the guest speakers who had set it up for this seminar."
+},
+{
+  "title": "Digital@Breakfast: Facebook and me",
+  "date": "22/05/2019",
+  "category": "Seminar",
+  "urlToImage": "https://images.vrt.be/w640hx/2019/01/14/7d4c521f-181e-11e9-abcc-02b7b76bf47f.jpg",
+  "description": "This seminar as held by Tim Verheyden, a journalist of Canvas. He made a documentary where he takes a closer look at the social media company's history and plans for the near future. He also tried to get answers around the modern-day problems of social media like privacy and the impact on democracy. He explained his documentary in a two-hour seminar and shared his experiences that he had while filming the docu."
+},
+{
+  "title": "Dialoflow: Build a chatbot",
+  "date": "06/11/2019",
+  "category": "Seminar",
+  "urlToImage": "https://www.pubnub.com/wp-content/uploads/2018/03/dialogflow-pubnub-webhooks.png",
+  "description": "In this workshop, I was introduced to Google's Dialogflow platform. I build a chatbot with it. The chatbot is a helpdesk-like chatbot called PXL-Airport. It can answer some questions like 'At what time is the next flight to x?' & 'Where can I park?'. The chatbot calls an API of Brussels Airport to answer these questions. I found it easy to make and the platform show much promise for the future. It is very user-friendly and easy to use. It also has a lot of additional features to let you use it in your own applications. This seminar held by a consultant of Interacto."
+},
+{
+  "title": "IoT in Everyday Life",
+  "date": "13/11/2019",
+  "category": "Seminar",
+  "urlToImage": "https://miro.medium.com/max/860/1*vUFNgofROTwY_rGd4_7Qsw.jpeg",
+  "description": "The seminar was organized by Infofarm, a Data Science and Big Data consultancy organization. This seminar was nothing more than showing some examples of projects that Inforfarm does that were related to IoT. The seminar ended with a demo."
+},
+{
+  "title": "Drinking a river of IoT data with Akka.net",
+  "date": "04/12/2019",
+  "category": "Seminar",
+  "urlToImage": "https://media.threatpost.com/wp-content/uploads/sites/103/2019/12/18112655/slideshow-1.png",
+  "description": "This seminar was hosted by Axxes. It explained some basic knowledge about IoT, what it is and what purpose it has. In the second part, we started to build a program that could read mock-data of a sensor. For this, we used a .NET framework called Akka.NET. Akka.NET is a toolkit and runtime for building highly concurrent, distributed, and fault-tolerant event-driven applications on .NET & Mono. Because IoT devices will send a lot of data were not all data is needed every millisecond, it is of great importance that programs behind these IoT-devices are built concurrently. "
+},
+{
+  "title": "Serverless Applications",
+  "date": "11/12/2019",
+  "category": "Seminar",
+  "urlToImage": "",
+  "description": "This seminar was hosted at ACA-IT by the company itself. I was shown what a serverless application are. I never heard of it before. Now I know that these applications are event-driven cloud-based systems where application development rely solely on a combination of third-party service. I teamed up with another developer and build a small node JS application during this seminar as an exercise to have a more firm understanding how serverless applications work."
+},
+{
+  "title": "",
+  "date": "",
+  "category": "Seminar",
+  "urlToImage": "",
+  "description": ""
+}
+]

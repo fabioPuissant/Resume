@@ -1,7 +1,8 @@
 <template>
-    <v-flex lg10 md10>
-      <v-card class="my-3" :data-aos="fadeDirection">
-        <v-img height="350px" v-bind:src="article.urlToImage"></v-img>
+<div   class="mx-auto pa-6">
+<v-card :data-aos="fadeDirection"
+    max-width="400">
+        <v-img height="300px" v-bind:src="article.urlToImage"></v-img>
         <v-container fill-height fluid>
           <v-layout>
             <v-flex xs12 align-end d-flex>
@@ -12,13 +13,14 @@
         <v-card-text>{{ article.description }}</v-card-text>
         <v-card-actions>
               <v-chip small color="secondary" class="white--text">
-                    {{article.source.name}}
+                    {{article.category}}
                   </v-chip>
                   <v-spacer></v-spacer>
-          <v-btn small replace color="info" v-bind:href="article.url" target="_blank">Read More</v-btn>
+          <v-chip small replace color="info" v-bind:href="article.url" target="_blank">{{article.date}}</v-chip>
         </v-card-actions>
       </v-card>
-    </v-flex>
+</div>
+    
 </template>
 
 <script>

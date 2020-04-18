@@ -10,8 +10,8 @@
           <div class="white--text ml-3">
             Made with
             <v-icon class="red--text">favorite</v-icon>
-            by <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
-            and <a class="white--text" href="https://github.com/fabioPuissant" 
+            and <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
+            by <a class="white--text" href="https://github.com/fabioPuissant" 
 target="_blank">Fabio Puissant</a>
           </div>
         </v-flex>
