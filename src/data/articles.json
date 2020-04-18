@@ -67,7 +67,7 @@
   "title": "Serverless Applications",
   "date": "11/12/2019",
   "category": "Seminar",
-  "urlToImage": "",
+  "urlToImage": "https://forgeahead.io/wp-content/uploads/2017/05/A-Multi-Cloud-Strategy-1280x720.jpg",
   "description": "This seminar was hosted at ACA-IT by the company itself. I was shown what a serverless application are. I never heard of it before. Now I know that these applications are event-driven cloud-based systems where application development rely solely on a combination of third-party service. I teamed up with another developer and build a small node JS application during this seminar as an exercise to have a more firm understanding how serverless applications work."
 },
 {
