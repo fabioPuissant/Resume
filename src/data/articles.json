@@ -95,17 +95,17 @@
 },
 
 {
-  "title": "",
-  "date": "",
+  "title": "Bus-IT week",
+  "date": "February 2019",
   "category": "International",
-  "urlToImage": "",
-  "description": ""
+  "urlToImage": "/certificate_android_location_apps.jpg",
+  "description": "The Bus-IT week is organized by Hogeschool PXL & partners. It is a week where students can go (abroad) and learn some new technologies that most likely are not in the syllabus of the Hogeschool PXL. I went to Mendel University in Brno, Czech Republic to attend a one-week course about Android location-based applications and how they are made.\n\nNext to attending classes, students can explore the local environment. By the end of the week, I made some location-based apps in class with a variety of APIs and beacons. The last 24 hours of this week was reserved for a hackathon where teams of different schools that participate in the Bus-IT week compete with each other. \n\nMy team ended up making an app that guides users to special bars and diners near them. Users can choose from some a list of local food and beverages and the app shows the nearest bar or diner where they could get the chosen product."
 },
 {
   "title": "",
   "date": "",
   "category": "International",
-  "urlToImage": "",
+  "urlToImage": "/certificate_android_location_apps.jpg",
   "description": ""
 }
 ]

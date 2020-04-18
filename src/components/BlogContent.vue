@@ -1,9 +1,9 @@
 <template>
   <div class="mx-auto pa-6 hvr-float">
     <v-card
-      v-on:hover=""
+    v-on:hover="hover == true"
       :data-aos="fadeDirection"
-      max-width="400"
+      max-width="450"
       :class="{ 'on-hover': hover }"
     >
       <v-img height="300px" v-bind:src="article.urlToImage"></v-img>
@@ -49,7 +49,7 @@ AOS.init({
 export default {
   data() {
     return {
-      "hover": false,
+      hover: false,
 
     }
   },
@@ -67,9 +67,12 @@ export default {
 
 <style scoped>
 
+.v-card:hover{
+  opacity: 1.2 !important;
 
+}
 .v-card:not(.on-hover) {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .show-btns {
