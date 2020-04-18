@@ -1,4 +1,5 @@
 <template>
+<v-container>
   <v-card :max-width="isSmallerScreen ? '300' : '375'" class="bg-color mx-auto mt-8">
     <v-img src="/thai.jpg" height="300px" dark>
       <v-row class="fill-height">
@@ -81,6 +82,8 @@
       </v-list-item-group>
     </v-list>
   </v-card>
+</v-container>
+
 </template>
 
 <script>

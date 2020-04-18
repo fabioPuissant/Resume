@@ -8,8 +8,8 @@
           <v-list-item-title :class="smallScreen ? 'caption font-weight-bold' : ''">{{mailAddress}}</v-list-item-title>
           <v-list-item-subtitle class="white--text">{{type}}</v-list-item-subtitle>
         </v-list-item-content>
-        <v-list-item-icon v-if="contactAddressOption" @click="mailTo()">
-          <v-icon>chat</v-icon>
+        <v-list-item-icon  v-if="contactAddressOption" @click="mailTo()">
+          <v-icon color="indigo">chat</v-icon>
         </v-list-item-icon>
       </v-list-item>
 </template>
