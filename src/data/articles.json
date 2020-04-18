@@ -71,9 +71,40 @@
   "description": "This seminar was hosted at ACA-IT by the company itself. I was shown what a serverless application are. I never heard of it before. Now I know that these applications are event-driven cloud-based systems where application development rely solely on a combination of third-party service. I teamed up with another developer and build a small node JS application during this seminar as an exercise to have a more firm understanding how serverless applications work."
 },
 {
+  "title": "What The Hack! 2019",
+  "date": "05/03/2019",
+  "category": "Event",
+  "urlToImage": "https://www.veto.be/cache/img/b22324796e3d0c37c1c148f6d804377a-WhatTheHack.png",
+  "description": "What the hack is one of the biggest and well-organised hackathons of Belgium. It is held every year by Tobania, a big IT-consultancy company. I entered the hackathon with a four-man team. Together. we developed 'MindShare'. An android mobile application that helps psychologists and their patients by keeping a type of daily log of the progression of patients. The application asks some playful questions to the patients and by answering them they reveal their emotional state. The psychologist can then evaluate the answers of his/her patients and give guidance remotely. ",
+  "link": "https://github.com/MaximCoppieters/MindShare",
+  "icon": "fa-github"
+},
+{
+  "title": "B-Inspired",
+  "date": "08/10/2019",
+  "category": "Event",
+  "urlToImage": "https://www.cordacampus.com/sites/default/files/styles/bedrijven-top/public/header-neon2x_0.jpg?itok=8De3iq8T",
+  "description": "B-Inspired is an evening filled with short presentations of guest- and intern speakers. These speakers all present a different topic of IT in which they are specialized. It is a great way to share knowledge and a fun way to learn new aspects of the technology sector. The intern speakers are employees of the Bewire group. Bewire is an organization where I did a project throughout the whole first semester of my graduate year. Bewire exits out of a lot of different companies. Each has its focus and purpose in the group. That's why, after all the presentations, there was a networking event for all employees and interns to get together. "
+},
+{
+  "title": "Hack the Future",
+  "date": "28/11/2019",
+  "category": "Event",
+  "urlToImage": "https://i.vimeocdn.com/video/846628389.webp?mw=1700&mh=957&q=70",
+  "description": "Hack the future is a hackathon held by the Cronos group and took place on 28/12/2019. The location of this event is an old fortress in the province of Antwerp. This location does let you feel more engaged in the competition. It looks like a villain's hideout. The theme of the hackathon was heisting a bank so it matched with the location. This hackathon is for graduate technology students only, there aren't any professionals participating. The theme of the I took on the Javascript challenge. Everyone was paired with another developer. The challenge was to build a dashboard with a given API. To fully understand how the API worked, each team must solve some riddles that lead to different endpoints of the API."
+},
+
+{
   "title": "",
   "date": "",
-  "category": "Seminar",
+  "category": "International",
+  "urlToImage": "",
+  "description": ""
+},
+{
+  "title": "",
+  "date": "",
+  "category": "International",
   "urlToImage": "",
   "description": ""
 }
